@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Name: {{pangalan}}</p>
+    <p><i>Motto: {{motto}}</i></p>
+    <p><b>Motto Length: </b> {{motto|length}} Characters Long</p>
+    <p><b>Motto in Capital First Letter: </b>{{motto|title}}</p>
+    <p><b>First five words in Motto: </b>{{motto|truncatewords:5}}</p>
+    <p><b>First five words in Motto with first words in Capital: </b>{{motto|truncatewords:5|title}}</p>
+</body>
+</html>

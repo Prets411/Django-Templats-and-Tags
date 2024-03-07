@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Name: {{pangalan}}</p>
+    <p>Quiz 1: {{quiz1}}</p>
+    <p>Quiz 2: {{quiz2}}</p>
+
+    {%if quiz1 > quiz2%}
+        Quiz 1 is greater than Quiz 2.
+        {%elif quiz1 < quiz2%}
+        Quiz 1 is less than Quiz 2.
+        {%else%}
+        Quiz 2 is equal to Quiz 1.
+        {%endif%}
+</body>
+</html>
